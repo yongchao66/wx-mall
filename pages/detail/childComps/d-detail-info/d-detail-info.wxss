@@ -1,0 +1,48 @@
+.detail-info {
+	padding: 40rpx 24rpx;
+}
+
+.start,
+.end {
+	position: relative;
+	width: 180rpx;
+	height: 1px;
+	background-color: #a3a3a5;
+}
+
+.start:before,
+.end:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 10rpx;
+	height: 10rpx;
+	background-color: #333;
+}
+
+.end {
+	float: right;
+}
+
+.end:before {
+	right: 0;
+}
+
+.desc {
+	padding: 30rpx 0;
+	font-size: 28rpx;
+	text-align: justify;
+}
+
+.info-key {
+	font-size: 30rpx;
+	line-height: 48rpx;
+}
+
+.image-item {
+	margin-bottom: 10rpx;
+}
+
+.image-item:last-child {
+	margin-bottom: none;
+}

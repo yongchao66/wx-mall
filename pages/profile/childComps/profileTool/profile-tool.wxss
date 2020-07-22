@@ -1,0 +1,36 @@
+/* pages/profile/childComps/profileTool/profile-tool.wxss */
+.profile-tool {
+  margin: 12px 12px 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tool-top {
+  padding: 0 12px;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tool-top .title {
+  font-size: 14px;
+  color: #000;
+}
+
+.tool-top .examine {
+  color: #999;
+}
+
+.tool .examine icon {
+  font-size: 18px;
+}
+
+.tool-item {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.tool .item-icon icon {
+  font-size: 24px;
+  color: #999;
+}

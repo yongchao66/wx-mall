@@ -1,0 +1,8 @@
+<!-- 菜单导航 -->
+<block wx:for="{{catemenu}}" wx:key="{{index}}">
+	<view class='menu-items {{index == currentIndex ? "active" : ""}}' 
+				bindtap="itemClick"
+				data-index="{{index}}">
+		<text>{{item.title}}</text>
+	</view>
+</block>

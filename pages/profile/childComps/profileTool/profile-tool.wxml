@@ -1,0 +1,22 @@
+<!--pages/profile/childComps/profileTool/profile-tool.wxml-->
+<view class="profile-tool">
+  <view class="tool-top justify">
+    <text class="title">工具</text>
+    <view class="examine">
+			<text>查看全部工具</text>
+      <icon class="iconfont icon-right"></icon>
+    </view>
+  </view>
+  <view class="tool-list align-items flex-wrap">
+    <block wx:for="{{list}}" wx:key='{{index}}' >
+			<view class="tool-item flex-basis-4">
+			  <view class="item-icon">
+			    <icon class="iconfont {{item.icon}}"></icon>
+			  </view>
+			  <view class="item-title">
+			    <text>{{item.title}}</text>
+			  </view>
+			</view>
+		</block>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+<view class="comment-info">
+	<view class="comment-header ui-flex">
+		<view class="header-title flex">用户评论</view>
+		<view class="header-more">
+			<text>更多</text>
+			<icon class="iconfont icon-right"></icon>
+		</view>
+	</view>
+	<view class="comment-user">
+		<image class="user-image" src="{{commentInfo.user.avatar}}" />
+		<text class="user-name">{{commentInfo.user.uname}}</text>
+	</view>
+	<view class="comment-message">
+		<view class="desc">{{commentInfo.content}}</view>
+		<view class="other">
+			<text>{{commentInfo.created}}</text>
+			<text>{{commentInfo.style}}</text>
+		</view>
+	</view>
+	<view class='picture ui-flex'>
+		<block wx:for="{{commentInfo.images}}" wx:key="{{index}}">
+			<image src="{{item}}" mode="widthFix"/>
+		</block>
+	</view>
+</view>

@@ -1,0 +1,30 @@
+.category-lt {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 160rpx;
+	height: 100vh;
+	overflow: hidden;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.category-rt {
+	position: relative;
+	top: 0;
+	left: 160rpx;
+	width: calc(100% - 160rpx);
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100% - 160rpx);
+  z-index: 999;
+}

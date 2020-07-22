@@ -1,0 +1,32 @@
+.param-info {
+	padding: 12px;
+}
+
+.consult {
+  padding: 24rpx 0;
+  font-size: 28rpx;
+  color: #999;
+}
+
+.param-title {
+	height: 76rpx;
+	padding-left: 20rpx;
+	font-size: 32rpx;
+	line-height: 76rpx;
+	background-color: #f2f2f2;
+}
+
+.param-info .param-item {
+	padding: 10px 0;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+}
+
+.param-item .key {
+	flex: 4;
+}
+
+.param-item .value {
+	flex: 8;
+	color: #f69;
+}

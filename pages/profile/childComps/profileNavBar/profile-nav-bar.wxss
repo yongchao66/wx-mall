@@ -1,0 +1,7 @@
+/* pages/profile/childComps/profileNavBar/profile-nav-bar.wxss */
+
+.item-title {
+  display: block;
+  margin-top: 10rpx;
+  padding-bottom: 10rpx;
+}

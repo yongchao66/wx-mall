@@ -1,0 +1,14 @@
+<view class='cart'>
+  <c-logo wx:if='{{!isShow}}' />
+  <view wx:else class='cart-shop'>
+    <c-list cartlist="{{cartList}}" 
+            bind:del='onDelete'
+            bind:add='onAddCount'
+            bind:sub='onSubCount'
+            bind:input='onInput' />
+    <c-foot bind:allSelect='onSelectAll'
+            checked='{{isSelectAll}}'
+            price='{{totalPrice}}'
+            counter='{{totalCount}}' />
+  </view>
+</view>

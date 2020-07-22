@@ -1,0 +1,38 @@
+/* pages/profile/childComps/profileOrder/profile-order.wxss */
+
+.profile-order {
+  margin: 12px 12px 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.order-top {
+  padding: 0 12px;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #ccc;
+}
+
+.order-top .title {
+  font-size: 14px;
+  color: #000;
+}
+
+.order-top .examine {
+  color: #999;
+}
+
+.order-top .examine icon {
+  font-size: 18px;
+}
+
+.order-item {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.order-item .item-icon icon {
+  font-size: 24px;
+  color: #999;
+}
+

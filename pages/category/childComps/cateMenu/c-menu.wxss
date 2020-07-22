@@ -1,0 +1,15 @@
+.menu-items {
+	height: 100rpx;
+	font-size: 28rpx;
+	line-height: 100rpx;
+	text-align: center;
+	background-color: #f6f6f6;
+	box-sizing: border-box;
+}
+
+.menu-items.active {
+	font-weight: 600;
+	color: #f55777;
+	background-color: #fff;
+	border-left: 6rpx solid #F55777;
+}

@@ -1,0 +1,22 @@
+<!--pages/profile/childComps/profileOrder/profile-order.wxml-->
+<view class="profile-order">
+  <view class="order-top justify">
+    <text class="title">我的订单</text>
+    <view class="examine">
+			<text>查看全部订单</text>
+      <icon class="iconfont icon-right"></icon>
+    </view>
+  </view>
+  <view class="order-list align-items">
+    <block wx:for="{{list}}" wx:key='{{index}}' >
+			<view class="order-item flex">
+			  <view class="item-icon">
+			    <icon class="iconfont {{item.icon}}"></icon>
+			  </view>
+			  <view class="item-title">
+			    <text>{{item.title}}</text>
+			  </view>
+			</view>
+		</block>
+  </view>
+</view>

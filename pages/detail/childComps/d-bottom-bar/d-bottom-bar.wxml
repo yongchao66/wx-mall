@@ -1,0 +1,20 @@
+<view class="detail-bottom-bar align-items">
+	<view class="bottom-lf ui-flex flex">
+		<navigator class="bottom-items flex">
+			<icon class="icon iconfont icon-shop"></icon>
+			<view>店铺</view>
+		</navigator>
+    	<navigator class="bottom-items flex">
+			<icon class="icon active-icon iconfont icon-message"></icon>
+			<view>客服</view>
+		</navigator>
+		<navigator class="bottom-items flex">
+			<icon class="icon iconfont icon-fav"></icon>
+			<view>收藏</view>
+		</navigator>
+	</view>
+	<view class='bottom-rt ui-flex'>
+		<view class="detail-but but-cart" bindtap='addcart'>加入购物车</view>
+    <view class="detail-but but-buy">购买</view>
+	</view>
+</view>

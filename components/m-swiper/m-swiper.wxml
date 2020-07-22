@@ -1,0 +1,12 @@
+<swiper autoplay
+				interval='3000'
+				circular='true'
+				indicator-dots
+				indicator-color
+				indicator-active-color="#ff5777">
+	<block wx:for="{{banners}}" wx:key="{{index}}">
+		<swiper-item>
+			<image class="swiper-img" src="{{item.image || item}}"></image>
+		</swiper-item>
+	</block>
+</swiper>

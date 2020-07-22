@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#eee",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+		"d-base-info": "./childComps/d-base-info/d-base-info",
+		"d-shop-info": "./childComps/d-shop-info/d-shop-info",
+		"d-detail-info": "./childComps/d-detail-info/d-detail-info",
+		"d-param-info": "./childComps/d-param-info/d-param-info",
+		"d-comment-info": "./childComps/d-comment-info/d-comment-info",
+		"d-recommend": "./childComps/d-recommend/d-recommend",
+		"d-bottom-bar": "./childComps/d-bottom-bar/d-bottom-bar",
+		"m-swiper": "/components/m-swiper/m-swiper",
+		"m-back-top": "/components/m-back-top/m-back-top"
+	}
+}

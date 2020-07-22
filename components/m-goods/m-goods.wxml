@@ -1,0 +1,22 @@
+<!--goods.wxml-->
+<view class="goods flex-wrap">
+    <block wx:for="{{goodlist}}" wx:key="{{index}}">
+      <view class="good-items flex-basis-2" bind:tap='itemClick' data-id="{{item.iid}}">
+        <image class="good-image"
+                src="{{item.show.img || item.img ||item.image}}"
+                mode='widthFix'
+                lazy-load
+                show-menu-by-longpress />
+        <view class="good-infor">
+          <view class="good-title overflow-1">{{item.title}}</view>
+          <view class="good-box justify">
+            <text class="good-price">¥{{item.price}}</text>
+            <view class="box-right">
+              <image class="good-icon" src="../../assets/img/common/favor.png" />
+              <text class="good-fav">{{item.cfav}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+</view>

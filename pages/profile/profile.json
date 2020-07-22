@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "个人资料",
+ 
+  "usingComponents": {
+    "profile-info": "./childComps/profileInfo/profile-info",
+    "profile-nav-bar": "./childComps/profileNavBar/profile-nav-bar",
+    "profile-order": "./childComps/profileOrder/profile-order",
+    "profile-tool": "./childComps/profileTool/profile-tool"
+  }
+}

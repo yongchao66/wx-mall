@@ -1,0 +1,72 @@
+.shop-info {
+	padding: 50rpx 24rpx;
+	border-bottom: 5px solid #f2f5f8;
+}
+
+
+.shop-info-title image {
+	width: 86rpx;
+	height: 86rpx;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.shop-info-title text {
+	margin-left: 20rpx;
+	line-height: 90rpx;
+}
+
+
+.shop-inf-box {
+	margin-top: 14px;
+	color: #333;
+
+
+}
+
+.shop-inf-box .box-left {
+	text-align: center;
+}
+
+.shop-inf-box .box-left:first-child {
+	border-right: 1px solid #ddd;
+}
+
+.shop-inf-box .count {
+	font-size: 36rpx;
+	line-height: 48rpx;
+}
+
+.shop-inf-box .text {
+	margin-top: 20rpx;
+	font-size: 24rpx;
+}
+
+.box-right {
+	padding-left: 40rpx;
+	font-size: 26rpx;
+}
+
+.box-right .box-right-item {
+	padding: 10rpx 0;
+}
+
+.box-right .box-right-item .score {
+	color: #5ea732;
+}
+
+.box-right .box-right-item .better {
+	background-color: #5ea732;
+}
+
+.box-right .box-right-item .is-score {
+	color: #f13e3a;
+}
+
+.box-right .box-right-item .is-better {
+	background-color: #f13e3a;
+}
+
+.box-button {
+	text-align: center;
+}

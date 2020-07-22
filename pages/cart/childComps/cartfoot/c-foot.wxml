@@ -1,0 +1,17 @@
+<!--pages/cart/childComps/cartfoot/c-foot.wxml-->
+<view class="cart-footer justify align-items">
+	<view class="cart-footer-check align-items" bindtap='AllSelectClick'>
+		<m-check-icon is-checked='{{checked}}' />
+		<text>全选</text>
+	</view>
+	<view class="flex ui-flex">
+		<view class="cart-footer-count flex">
+			<text class="count">合计:</text>
+			<text class="price">￥ {{price}}</text>
+		</view>
+		<view class="cart-footer-patment">
+			<text class="text">结算</text>
+			<text class="number" wx:if='{{counter}}'>({{counter}})</text>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,25 @@
+/* pages/detail/detail.wxss */
+.detail {
+  height: calc(100% - 120rpx);
+}
+
+.banner swiper {
+  height: 800rpx;
+}
+
+.cart-btn {
+  position: fixed;
+  top: 80px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 50%;
+}
+
+.cart-btn > icon {
+  font-size: 24px;
+  color: #fff;
+}

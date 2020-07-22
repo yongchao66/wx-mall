@@ -1,0 +1,56 @@
+.detail-bottom-bar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	height: 49px;
+	background-color: #fff;
+	box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+}
+
+.bottom-items {
+	text-align: center;
+}
+
+navigator-hover {
+	background-color: #fff;
+}
+
+.icon {
+	font-size: 48rpx;
+	color: #999;
+}
+
+.active-icon {
+	color: #09c;
+}
+
+.bottom-items >view {
+	font-size: 28rpx;
+	line-height: 46rpx;
+	color: #999;
+}
+
+.bottom-rt {
+	padding-right: 20rpx;
+}
+
+.bottom-rt .detail-but {
+	width: 170rpx;
+	font-size: 28rpx;
+	height: 72rpx;
+	line-height: 72rpx;
+	text-align: center;
+	color: #fff;
+}
+
+.detail-but.but-cart {
+	background: linear-gradient(to right, #ffc500, #ff9402);
+	border-radius: 36rpx 0 0 36rpx;
+}
+
+.detail-but.but-buy {
+	background: linear-gradient(to right, #ff7a00, #fe560a);
+	border-radius: 0 36rpx 36rpx 0;
+}

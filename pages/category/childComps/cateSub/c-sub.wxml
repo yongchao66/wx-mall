@@ -1,0 +1,8 @@
+<view class='cate-sub flex-wrap'>
+	<block wx:for="{{cateSub}}" wx:key="{{index}}">
+		<view class="sub-item flex-basis-3">
+			<image src="{{item.image}}" mode='widthFix' bindload='imgLoad' />
+			<view class="sub-item-title">{{item.title}}</view>
+		</view>
+	</block>
+</view>

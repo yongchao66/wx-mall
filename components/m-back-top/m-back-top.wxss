@@ -1,0 +1,14 @@
+/* components/m-back-top/m-back-top.wxss */
+.back-top {
+  position: fixed;
+  right: 16rpx;
+  bottom: 30rpx;
+  width: 90rpx;
+  height: 90rpx;
+  z-index: 99;
+}
+
+.back-top image {
+  width: 100%;
+  height: 100%;
+}

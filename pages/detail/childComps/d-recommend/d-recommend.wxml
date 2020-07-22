@@ -1,0 +1,9 @@
+<!--pages/detail/childComps/d-recommend/d-recommend.wxml-->
+<view class="recommend">
+  <view class='recommend-title'>
+    <view class="line">
+			<view class="rec-text">商品推荐</view>
+		</view>
+  </view>
+  <m-goods goodlist="{{recommends}}"></m-goods>
+</view>

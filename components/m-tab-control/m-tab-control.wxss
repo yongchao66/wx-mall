@@ -1,0 +1,18 @@
+/* components/m-tab-control/m-tab-control.wxss */
+.tab-control {
+  /* padding-bottom: 24rpx; */
+  background-color: #fff;
+}
+.tab-items {
+	height: 80rpx;
+	font-size: 32rpx;
+	line-height: 80rpx;
+	text-align: center;
+}
+.tab-items.active {
+	color: #ff5777;
+}
+.active text {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #f69;
+}

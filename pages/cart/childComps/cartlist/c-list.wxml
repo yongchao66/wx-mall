@@ -1,0 +1,56 @@
+<!--pages/cart/childComps/cartlist/c-list.wxml-->
+<view class="cart-list">
+	<block wx:for="{{cartlist}}" wx:key='{{index}}'>
+		<view class="item">
+			<view class="item-top align-items">
+				<view class="top-icon"></view>
+				<view class="top-name">
+					<image class="img" src="{{item.logo}}" />
+					<text class="title">{{item.name}}</text>
+					<icon class="arrow iconfont icon-right"></icon>
+				</view>
+				<view class="coupon" bindtap='delClick' data-index="{{index}}">
+					<icon class="iconfont icon-delete"></icon>
+				</view>
+			</view>
+			<view class="item-wrap ui-flex">
+				<view class="wrap-left align-items">
+					<m-check-icon style='margin: 0 24rpx' 
+                        is-checked='{{item.checked}}'
+                        bindtap='onCheckClick'
+                        data-index="{{index}}" />
+					<view class="image">
+					  <image src="{{item.image}}" />
+					</view>
+				</view>
+				<view class="wrap-right">
+					<view class="title overflow-2"
+                bindtap='itemClick'
+                data-id="{{item.id}}">{{item.title}}
+          </view>
+					<view class="desc overflow-1">{{item.desc}}</view>
+					<view class="right-bottom align-items">
+						<view class="price flex overflow-1">
+							<text>￥{{item.price}}</text>
+						</view>
+						<view class="box">
+							<text bindtap='subClick'
+                    data-index='{{index}}'
+                    class="btn reduce">-
+              </text>
+							<input class="count"
+                      bindblur='onInput'
+                      type='number'
+                      data-index='{{index}}'
+                      value='{{item.count}}' />
+							<text bindtap='addClick'
+                    data-index='{{index}}'
+                    class="btn add">+
+              </text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</block>
+</view>

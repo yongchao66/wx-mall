@@ -1,0 +1,63 @@
+.comment-info {
+	padding: 24rpx;
+	border-bottom: 1px solid #eee;
+}
+
+.comment-header {
+	line-height: 100rpx;
+	color: #333;
+	border-bottom: 1px solid #ddd;
+}
+
+.comment-header .header-title {
+	font-size: 30rpx;
+}
+
+.comment-header .header-more text {
+	font-size: 26rpx;
+}
+
+.comment-user {
+	padding-top: 20rpx;
+	padding-bottom: 10rpx;
+}
+
+.comment-user .user-image {
+	width: 84rpx;
+	height: 84rpx;
+	border-radius: 50%;
+}
+
+.comment-user .user-name {
+	margin-left: 20rpx;
+	font-size: 30rpx;
+	color: #333;
+}
+
+.comment-message {
+	padding: 0 10px 16px;
+}
+
+.comment-message .desc {
+	font-size: 28rpx;
+	color: #777;
+	line-height: 1.5;
+}
+
+.comment-message .other {
+	margin-top: 20rpx;
+	font-size: 24rpx;
+	color: #999;
+}
+
+.comment-message .other text:first-child {
+	margin-right: 16rpx;
+}
+
+.picture {
+  margin-top: 20rpx;
+}
+
+.picture image {
+  max-width: 30%;
+}

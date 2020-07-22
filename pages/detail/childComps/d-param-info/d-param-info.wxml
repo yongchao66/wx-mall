@@ -1,0 +1,38 @@
+<view class="param-info">
+ <view class="param-title">尺寸说明</view>
+  <view class='param-info-size'>
+    <block wx:for="{{paramInfo.sizes}}" 
+					wx:for-index="index" 
+					wx:for-item="itemx"
+					wx:key="index">
+      <view class='size-table'>
+        <block wx:for="{{itemx}}"
+               wx:for-index="indey"
+               wx:for-item="itemy"
+               wx:key="indey">
+          <view class='param-item align-items'>
+            <block wx:for="{{itemy}}"
+                   wx:for-index="indez"
+                   wx:for-item="itemz"
+                   wx:key="indez">
+              <view class='flex'>{{itemz}}</view>
+            </block>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+  <view class="consult">*以上尺寸为实物人工测量，因测量方式不同会有1-2cm误差，相关数据仅为作参考，以收到实物为难。</view>
+  <view class="param-title">产品参数</view>
+  <view class='param-info-s'>
+    <block wx:for="{{paramInfo.infos}}" wx:key="{{index}}">
+      <view class="param-item align-items">
+        <view class='key'>{{item.key}}</view>
+        <view class='value'>{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+	<view class="param-info-img" wx:if="{{paramInfo.image.length !== 0}}">
+	  <image src="{{paramInfo.image}}" />
+	</view>
+</view>

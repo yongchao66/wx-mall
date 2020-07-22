@@ -1,0 +1,17 @@
+/* pages/cart/childComps/cartlogo/c-logo.wxss */
+.cart-logo {
+    padding-top: 100rpx;
+    font-size: 32rpx;
+    text-align: center;
+    color: #999;
+  }
+
+  .logo-icon image{
+    width: 440rpx;
+    height: 320rpx;
+  }
+
+  .cart-button {
+    margin-top: 36rpx;
+    color: #858585;
+  }

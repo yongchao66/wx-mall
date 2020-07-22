@@ -1,0 +1,12 @@
+<view class='home'>
+  <m-swiper class='banner' banners='{{banners}}'/>
+  <h-recommend recommends='{{recommends}}' bind:imageLoad='onImageLoad'/>
+  <view class="feature">
+    <image src="/assets/img/home/feature_bg.jpg" />
+  </view>
+  <m-tab-control titles='{{tabTitle}}' 
+                  bind:itemclick='tabClick'
+                  class='tab-control {{isTabFixed ? "fixed" : ""}}' />
+  <m-goods goodlist='{{goods[currentType].list}}'/>
+  <m-back-top bind:tap="onBackTop" wx:if='{{showBackTop}}' />
+</view>

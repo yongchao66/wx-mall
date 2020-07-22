@@ -1,0 +1,115 @@
+page {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
+  -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap点击，highlight背景高亮，color颜色，颜色用数值调节 */
+  background-color: #fff;
+  color: #666;
+}
+
+view,text,input {
+	box-sizing: border-box;
+}
+
+.ui-flex {
+	display: flex;
+	display: -moz-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+
+.flex-wrap {
+  display: flex;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.align-items {
+  display: flex;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+	align-items: center;
+	-webkit-align-items: center;
+	-weikit-box-align: center;
+	-moz-box-align: center;
+}
+
+.justify {
+  display: flex;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.justify-center {
+  display: flex;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.flex {
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+}
+
+.flex-basis-2 {
+	width: 50%;
+}
+.flex-basis-3 {
+	width: calc(100% / 3);
+}
+
+.flex-basis-4 {
+	width: 25%;
+}
+
+.overflow-1,.overflow-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overflow-1 {
+  -webkit-line-clamp: 1;
+}
+
+.overflow-2 {
+  -webkit-line-clamp: 2;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+input,text {
+  vertical-align: middle;
+}
+
+image {
+  width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}

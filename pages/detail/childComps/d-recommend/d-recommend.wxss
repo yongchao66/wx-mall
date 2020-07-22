@@ -1,0 +1,26 @@
+/* pages/detail/childComps/d-recommend/d-recommend.wxss */
+
+.recommend {
+  padding: 10rpx 0;
+}
+
+.recommend-title {
+	height: 80rpx;
+	font-size: 12px;
+	background-color: #f2f2f2;
+}
+
+.line {
+	position: relative;
+	top: 40rpx;
+	margin: 0 80rpx;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.rec-text {
+	margin: -18rpx auto 0;
+	width: 240rpx;
+	color: rgba(0, 0, 0, .2);
+	text-align: center;
+	background-color: #f2f2f2;
+}

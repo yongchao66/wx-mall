@@ -1,0 +1,15 @@
+.banner swiper {
+	height: 380rpx;
+}
+
+.feature {
+	height: 240px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}

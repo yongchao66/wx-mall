@@ -1,0 +1,8 @@
+<!--pages/profile/childComps/profileInfo/profile-info.wxml-->
+<view class='profile-info'>
+  <view class="info-avatar">
+    <image src='/assets/img/profile/avatar.svg'></image>
+    <icon class="iconfont icon-vip1"></icon>
+  </view>
+  <view class='info-name'></view>
+</view>

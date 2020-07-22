@@ -1,0 +1,8 @@
+<view class='recommend ui-flex'>
+	<block wx:for="{{recommends}}" wx:key="{{index}}">
+		<view class="recommend-items flex">
+			<image class="item-img" src="{{item.image}}" bindload='imgLoad'></image>
+			<view class="item-title">{{item.title}}</view>
+		</view>
+	</block>
+</view>

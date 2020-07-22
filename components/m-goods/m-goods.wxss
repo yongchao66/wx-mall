@@ -1,0 +1,40 @@
+.goods {
+	margin: 1.5%;
+}
+
+.good-items {
+	padding: 1.5%;
+	color: #333;
+}
+
+.good-items .good-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 10rpx;
+}
+
+.good-items .good-infor {
+  margin-top: 20rpx;
+}
+
+.good-items .good-title {
+	font-size: 28rpx;
+}
+
+.good-box {
+  padding: 12rpx;
+}
+
+.good-box text {
+	font-size: 26rpx;
+}
+
+.good-box .good-price {
+	color: #FF5777;
+}
+
+.box-right .good-icon {
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 8rpx;
+}

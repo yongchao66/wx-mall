@@ -1,0 +1,7 @@
+.profile {
+	min-height: 100vh;
+	font-size: 24rpx;
+	text-align: center;
+	background: rgba(192, 192, 192, .2);
+}
+

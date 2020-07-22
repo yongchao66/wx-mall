@@ -1,0 +1,6 @@
+<view class="profile">
+  <profile-info />
+  <profile-nav-bar />
+  <profile-order />
+  <profile-tool />
+</view>

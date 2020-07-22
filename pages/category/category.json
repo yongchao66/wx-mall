@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+		"c-menu": "./childComps/cateMenu/c-menu",
+		"c-sub": "./childComps/cateSub/c-sub",
+		"m-tab-control": "/components/m-tab-control/m-tab-control",
+		"m-goods": "/components/m-goods/m-goods"
+	}
+}

@@ -1,0 +1,8 @@
+<!--pages/cart/childComps/cartlogo/c-logo.wxml-->
+<view class="cart-logo">
+  <view class="logo-icon">
+    <image src="/assets/img/cart/cart.png" />
+  </view>
+  <view class="cart-desc">亲、您的购物车空空如也!</view>
+  <button bindtap="buttonClick" class="cart-button" size='mini'>去逛逛</button>
+</view>

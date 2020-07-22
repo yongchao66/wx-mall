@@ -1,0 +1,9 @@
+<!--pages/profile/childComps/profileNavBar/profile-nav-bar.wxml-->
+<view class='nav-list align-items'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class='nav-item flex'>
+      <icon class='iconfont {{item.icon}}' style='color: {{item.color}}'></icon>
+      <text class='item-title'>{{item.title}}</text>
+    </view>
+  </block>
+</view>

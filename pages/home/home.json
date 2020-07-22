@@ -1,0 +1,12 @@
+{
+	"enablePullDownRefresh": true,
+  "backgroundColor": "#eee",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+		"h-recommend": "./childComps/recommend/h-recommend",
+		"m-swiper": "/components/m-swiper/m-swiper",
+		"m-tab-control": "/components/m-tab-control/m-tab-control",
+		"m-goods": "/components/m-goods/m-goods",
+		"m-back-top": "/components/m-back-top/m-back-top"
+	}
+}

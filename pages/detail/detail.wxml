@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<view class='detail'>
+  <!-- 轮播图展示 -->
+  <m-swiper class='banner' banners='{{topImages}}'/>
+	<!-- 商品信息 -->
+  <d-base-info baseInfo="{{baseInfo}}" />
+	<!-- 店铺展示 -->
+	<d-shop-info shopInfo="{{shopInfo}}" />
+  <!-- 评论信息 -->
+	<d-comment-info commentInfo="{{commentInfo}}" />
+	<!-- 效果图展示 -->
+  <d-detail-info detailInfo="{{detailInfo}}" />
+	<!-- 尺寸大小 -->
+  <d-param-info paramInfo="{{paramInfo}}" />
+	<!-- 商品推荐 -->
+	<d-recommend recommends='{{recommends}}' />
+  <!-- 底部 -->
+  <d-bottom-bar bind:addcart="onAddCart" />
+  <view class="cart-btn" bindtap='onToCart'>
+    <icon class='iconfont icon-Cart'></icon>
+  </view>
+</view>

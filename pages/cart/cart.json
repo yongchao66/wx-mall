@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#eee",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "c-logo": "./childComps/cartlogo/c-logo",
+    "c-list": "./childComps/cartlist/c-list",
+    "c-foot": "./childComps/cartfoot/c-foot"
+  }
+}

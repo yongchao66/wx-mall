@@ -1,0 +1,12 @@
+<view class="category">
+	<scroll-view scroll-y class="category-lt">
+		<c-menu catemenu="{{cateMenu}}" bind:menuclick='menuClick' />
+	</scroll-view>
+	<view class="category-rt">
+		<c-sub cate-sub="{{cateSubData[currentIndex].cateSub}}" bind:imageLoad='onImageLoad' />
+		<m-tab-control titles='{{tabTitle}}' 
+                  bind:itemclick='tabClick'
+                  class='tab-control {{isTabFixed ? "fixed" : ""}}' />
+		<m-goods goodlist="{{cateSubData[currentIndex].cateSubGoods[currentType]}}" />
+	</view>
+</view>

@@ -1,0 +1,14 @@
+.recommend {
+	padding: 20rpx 0 20rpx;
+	text-align: center;
+	border-bottom: 10px solid #eee;
+}
+
+.recommend-items .item-img {
+	width: 160rpx;
+	height: 160rpx;
+}
+.recommend-items .item-title {
+	font-size: 28rpx;
+	margin-top: 16rpx;
+}
