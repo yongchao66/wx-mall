@@ -1,4 +1,4 @@
-const base = "http://152.136.185.210:8000/api/n3"
+const base = "http://123.207.32.32:8000/api/x6"
 const time = 5000
 
 function request(options) {
